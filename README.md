@@ -3,8 +3,8 @@ a curated genome-based framework for taxonomic classification and characterizati
 # Workflow Overview
 * Quality control and trimming with FastQC and fastp
 * Genome assembly with SKESA
-Assembly quality assessment with QUAST 
-Toxin gene screening with AMRFinderPlus
-AMR gene screening with AMRFinderPlus
-Taxonomic comparison with FastANI against reference genomes
-Visualization using ANI heatmap 
+* Assembly quality assessment with QUAST 
+* Toxin gene screening with AMRFinderPlus
+* AMR gene screening with AMRFinderPlus
+* Taxonomic comparison with FastANI against reference genomes
+* Visualization using ANI heatmap 
