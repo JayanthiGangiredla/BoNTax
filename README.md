@@ -6,7 +6,10 @@ a curated genome-based framework for taxonomic classification and characterizati
 * Assembly quality assessment with QUAST 
 * Toxin gene screening with AMRFinderPlus
 * AMR gene screening with AMRFinderPlus
+* MLST Screening based on PUBMLST schema for Clostridum
 * Taxonomic comparison with FastANI against reference genomes
 * Visualization using ANI heatmap 
 #Dependecies
 This workflow relies on external tools from the Galaxy ToolShed. They can be auto-installed via Ephemeris using the included tools.yml
+#Conclusion
+By integrating curated reference genomes and ANI-based species assignment with independent BoNT characterization, ClostBoNTax provides a reproducible framework for distinguishing closely related C. botulinum Group I and C. sporogenes lineages without conflating taxonomic identity with toxin-associated pathogenic potential
