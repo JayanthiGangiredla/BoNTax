@@ -4,11 +4,10 @@ a curated genome-based framework for taxonomic classification and characterizati
 * Quality control and trimming with FastQC and fastp
 * Genome assembly with SKESA
 * Assembly quality assessment with QUAST 
-* Toxin gene screening with AMRFinderPlus
-* AMR gene screening with AMRFinderPlus
-* MLST Screening based on PUBMLST schema for Clostridum
+* Toxin gene and AMR gene screening with AMRFinderPlus
+* MLST Screening based on PUBMLST schema for Clostridium botulinum
 * Taxonomic comparison with FastANI against reference genomes
-* Visualization using ANI heatmap 
+* Visualization using ANI heatmap using heatmap2
 # Dependecies
 * This workflow relies on external tools from the Galaxy ToolShed. They can be auto-installed via Ephemeris using the included tools.yml
 
