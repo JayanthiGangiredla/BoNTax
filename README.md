@@ -8,3 +8,5 @@ a curated genome-based framework for taxonomic classification and characterizati
 * AMR gene screening with AMRFinderPlus
 * Taxonomic comparison with FastANI against reference genomes
 * Visualization using ANI heatmap 
+#Dependecies
+This workflow relies on external tools from the Galaxy ToolShed. They can be auto-installed via Ephemeris using the included tools.yml
