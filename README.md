@@ -17,7 +17,7 @@ This repository contains two versions of a Galaxy workflow, optimized depending 
 
 ##  Available Workflows
 
-*   **FASTA Workflow (`galaxytrakr-workflow/Galaxy-Workflow-ClostBoNTax_FastA.ga`)**: Designed for raw or assembled nucleotide/protein sequences without quality scores.
+*   **FASTA Workflow (`galaxytrakr-workflow/Galaxy-Workflow-ClostBoNTax_FastA.ga`)**: Designed for assembled nucleotide sequences without quality scores.
 *   **FASTQ Workflow (`galaxytrakr-workflow/Galaxy-Workflow-ClostBoNTax_FastQ.ga`)**: Designed for raw sequencing reads. Includes steps for quality control (QC) and trimming and assembly.
 
 ##  Input Requirements
