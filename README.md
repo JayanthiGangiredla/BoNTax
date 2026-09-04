@@ -42,6 +42,22 @@ This repository includes **46 compressed reference genomes** located in the `ref
 2. Upload the compressed file directly into your Galaxy history.
 3. Create a dataset list of all reference genomes.
 4. Select the list of uploaded reference file as your reference input dataset.
+### Output Report Fields
+
+The workflow automatically generates an integrated QC, FastANI, AMR, and toxin report containing the following metrics:
+
+| Field | Description |
+| :--- | :--- |
+| **Sample ID** | Unique identifier for the sample |
+| **Genome size (bp / Mb)** | Total assembly size (expected 3.6 – 4.5 Mb) |
+| **QC status (PASS / FAIL)** | Based on 3.6 – 4.5 Mb gate |
+| **AMR profile** | Detected antimicrobial resistance genes (if any) |
+| **Toxin presence (type & subtype)** | Detected neurotoxin marker(s) and subtype(s) (if any) |
+| **Best reference hit** | Top matching reference species |
+| **ANI (%)** | Average Nucleotide Identity (%) |
+| **Aligned fragments** | Number of aligned fragments |
+| **Total fragments** | Total number of fragments |
+| **Species match** | *C. sporogenes* / *C. botulinum* group I / Unknown |
 
 # Conclusion
 * By integrating curated reference genomes and ANI-based species assignment with independent BoNT characterization, ClostBoNTax provides a reproducible framework for distinguishing closely related C. botulinum Group I and C. sporogenes lineages without conflating taxonomic identity with toxin-associated pathogenic potential
