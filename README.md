@@ -42,7 +42,7 @@ This repository includes **46 compressed reference genomes** located in the `ref
 2. Upload the compressed file directly into your Galaxy history.
 3. Create a dataset list of all reference genomes.
 4. Select the list of uploaded reference file as your reference input dataset.
-### Output Report Fields
+### Output QC_ANI_Results Report Fields
 
 The workflow automatically generates an integrated QC, FastANI, AMR, toxin andd MLST report containing the following metrics:
 
