@@ -15,12 +15,12 @@ a curated genome-based framework for taxonomic classification and characterizati
 
 This repository contains two versions of a Galaxy workflow, optimized depending on your input file format, along with a library of 46 reference genomes for alignment and querying.
 
-## 🚀 Available Workflows
+##  Available Workflows
 
 *   **FASTA Workflow (`workflows/workflow_fasta.ga`)**: Designed for raw or assembled nucleotide/protein sequences without quality scores.
 *   **FASTQ Workflow (`workflows/workflow_fastq.ga`)**: Designed for raw sequencing reads. Includes steps for quality control (QC) and trimming.
 
-## 📋 Input Requirements
+##  Input Requirements
 
 | Workflow Version | Expected Input Format | Common File Extensions |
 | :--- | :--- | :--- |
@@ -28,6 +28,12 @@ This repository contains two versions of a Galaxy workflow, optimized depending 
 | **FASTQ Version** | Standard FASTQ (Sanger/Illumina 1.8+) | `.fastq`, `.fq`, `.fastq.gz` |
 
 ---
+## How to Import the Workflows
+
+1. Download the appropriate `.ga` file from the `galaxytrakr-workflows/` directory.
+2. Log into your **Galaxy instance**.
+3. Navigate to **Workflow** in the top menu and click **Upload or import workflow**.
+4. Choose the downloaded `.ga` file and import it into your account.
 ## 🧬 Reference Genomes
 
 This repository includes **46 compressed reference genomes** located in the `reference-db/` directory. All genomes are compressed in `.fasta.gz` format to optimize space and are natively compatible with Galaxy.
