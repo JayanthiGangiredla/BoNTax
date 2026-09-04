@@ -53,6 +53,8 @@ The workflow automatically generates an integrated QC, FastANI, AMR, and toxin r
 | **QC status (PASS / FAIL)** | Based on 3.6 – 4.5 Mb gate |
 | **AMR profile** | Detected antimicrobial resistance genes (if any) |
 | **Toxin presence (type & subtype)** | Detected neurotoxin marker(s) and subtype(s) (if any) |
+| **MLST Schema** | PUBMLST Schema |
+| **ST** | Sequence Type match|
 | **Best reference hit** | Top matching reference species |
 | **ANI (%)** | Average Nucleotide Identity (%) |
 | **Aligned fragments** | Number of aligned fragments |
