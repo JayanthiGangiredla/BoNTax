@@ -48,18 +48,20 @@ The workflow automatically generates an integrated QC, FastANI, AMR, toxin andd 
 
 | Field | Description |
 | :--- | :--- |
-| **Sample ID** | Unique identifier for the sample |
-| **Genome size (bp / Mb)** | Total assembly size (expected 3.6 – 4.5 Mb) |
-| **QC status (PASS / FAIL)** | Based on 3.6 – 4.5 Mb gate |
-| **AMR profile** | Detected antimicrobial resistance genes (if any) |
-| **Toxin presence (type & subtype)** | Detected neurotoxin marker(s) and subtype(s) (if any) |
-| **MLST Schema** | PUBMLST Schema |
-| **ST** | Sequence Type match|
-| **Best reference hit** | Top matching reference species |
-| **ANI (%)** | Average Nucleotide Identity (%) |
-| **Aligned fragments** | Number of aligned fragments |
-| **Total fragments** | Total number of fragments |
-| **Species match** | *C. sporogenes* / *C. botulinum* group I / Unknown |
+| **Sample** | Unique identifier for the sample |
+| **Total length (>= 0 bp)** | Genome size in base pairs (bp) |
+| **# contigs** | Number of contigs in the assembly |
+| **N50** | Length of the shortest contig accounting for 50% of the total assembly length |
+| **QC_check** | Quality control check based on the 3.6 – 4.5 Mb genome size gate |
+| **AMR** | Detected antimicrobial resistance genes (if any) |
+| **VIRULENCE** | Detected neurotoxin marker(s) and subtype(s) (if any) |
+| **ST** | Sequence type (ST)  |
+| **MLST_Schema** | PUBMLST Schema specifically for *C. botulinum* |
+| **Reference_match** | Top matching reference species |
+| **ANI** | Average Nucleotide Identity (%) |
+| **Aligned_Fragments** | Number of aligned fragments |
+| **Total_Fragments** | Total number of fragments |
+| **Species_match** | Final classification (*C. sporogenes* / *C. botulinum* group I / Unknown) |
 
 # Conclusion
 * By integrating curated reference genomes and ANI-based species assignment with independent BoNT characterization, ClostBoNTax provides a reproducible framework for distinguishing closely related C. botulinum Group I and C. sporogenes lineages without conflating taxonomic identity with toxin-associated pathogenic potential
