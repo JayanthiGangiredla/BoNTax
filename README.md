@@ -14,6 +14,11 @@ a curated genome-based framework for taxonomic classification and characterizati
 ## 🧬 Reference Genomes
 
 This repository includes **46 compressed reference genomes** located in the `reference-db/` directory. All genomes are compressed in `.fasta.gz` format to optimize space and are natively compatible with Galaxy.
+### How to use these references in Galaxy:
+1. Download the specific `.fasta.gz` genome(s) you need from the `reference-db/` folder in this repository.
+2. Upload the compressed file directly into your Galaxy history.
+3. Create a dataset list of all reference genomes.
+4. Select the list of uploaded reference file as your reference input dataset.
 
 # Conclusion
 * By integrating curated reference genomes and ANI-based species assignment with independent BoNT characterization, ClostBoNTax provides a reproducible framework for distinguishing closely related C. botulinum Group I and C. sporogenes lineages without conflating taxonomic identity with toxin-associated pathogenic potential
