@@ -19,14 +19,6 @@ This repository contains two versions of a Galaxy workflow, optimized depending 
 
 *   **FASTA Workflow (`galaxytrakr-workflow/Galaxy-Workflow-ClostBoNTax_FastA.ga`)**: Designed for assembled nucleotide sequences without quality scores.
 *   **FASTQ Workflow (`galaxytrakr-workflow/Galaxy-Workflow-ClostBoNTax_FastQ.ga`)**: Designed for raw sequencing reads. Includes steps for quality control (QC) and trimming and assembly.
-
-##  Input Requirements
-
-| Workflow Version | Expected Input Format | Common File Extensions |
-| :--- | :--- | :--- |
-| **FASTA Version** | Standard FASTA | `.fasta`, `.fa`, `.fna`, `.faa` |
-| **FASTQ Version** | Standard FASTQ (Sanger/Illumina 1.8+) | `.fastq`, `.fq`, `.fastq.gz` |
-
 ---
 ## How to Import the Workflows
 
@@ -34,6 +26,13 @@ This repository contains two versions of a Galaxy workflow, optimized depending 
 2. Log into your **Galaxy instance**.
 3. Navigate to **Workflow** in the top menu and click **Upload or import workflow**.
 4. Choose the downloaded `.ga` file and import it into your account.
+
+##  Input Requirements
+
+| Workflow Version | Expected Input Format | Common File Extensions |
+| :--- | :--- | :--- |
+| **FASTA Version** | Standard FASTA | `.fasta`, `.fa`, `.fna`, `.faa` |
+| **FASTQ Version** | Standard FASTQ (Sanger/Illumina 1.8+) | `.fastq`, `.fq`, `.fastq.gz` |
 ## 🧬 Reference Genomes
 
 This repository includes **46 compressed reference genomes** located in the `reference-db/` directory. All genomes are compressed in `.fasta.gz` format to optimize space and are natively compatible with Galaxy.
