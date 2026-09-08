@@ -8,7 +8,7 @@ a curated genome-based framework for taxonomic classification and characterizati
 * Toxin gene and AMR gene screening with AMRFinderPlus
 * MLST Screening based on PUBMLST schema for Clostridium botulinum
 * Taxonomic comparison with FastANI against reference genomes
-* Visualization using ANI heatmap using heatmap2
+* Visualization using ANI heatmap using ggplot2_heatmap2
 # Dependecies
 * This workflow relies on external tools from the Galaxy ToolShed (https://toolshed.g2.bx.psu.edu/). They can be auto-installed via Ephemeris using the included [tools.yml](dependencies/tools.yml).
 # Galaxy Workflow for Sequence Analysis
