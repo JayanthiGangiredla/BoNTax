@@ -1,0 +1,10 @@
+Sample	Total length (>= 0 bp)	# contigs	N50	QC_check 	AMR	VIRULENCE	MLST_Schema	ST	Reference_match	ANI	Aligned_Fragments	Total_Fragments	Species_match
+Cbot_gp1_CDC67190	3954777	1	3954777	Pass	cfr,cplR	bont_A1,bont_B5	cbotulinum	4	Cbotulinum_group1_CDC67190	100	1318	1318	Clostridium botulinum group1
+Cbot_gp1_Hall_80	3812159	64	175053	Pass	cfr,cplR	bont_B1	cbotulinum	30	Cbotulinum_group1_Hall_80	100	1233	1236	Clostridium botulinum group1
+Cbot_gp1_Langeland	3995387	1	3995387	Pass	cfr,cplR	bont_F1	cbotulinum	88	Cbotulinum_group1_Langeland	100	1328	1331	Clostridium botulinum group1
+Cbot_gp1_LochMareeA3	4259691	2	3992906	Pass	cfr,cplR	bont_A3	cbotulinum	3	Cbotulinum_group1_LochMareeA3	100	1417	1418	Clostridium botulinum group1
+Csporo_ATCC_15579	4102325	2	2710723	Pass	cfr,cplR	0	cbotulinum	70	Csporogenes_ATCC_15579	100	1365	1366	Clostridium sporogenes
+Csporo_DSM_795	4106655	16	722007	Pass	cplR	0	cbotulinum	-	Csporogenes_DSM_795	100	1358	1359	Clostridium sporogenes
+Csporo_Osaka05	4408349	3	4004744	Pass	cfr,cplR	bont_B6	cbotulinum	35	Csporogenes_Osaka05	99.9996	1461	1467	Clostridium sporogenes
+Csporo_Prevot_594	4334551	2	4077214	Pass	cplR	bont_B2	cbotulinum	54	Csporogenes_Prevot_594	100	1444	1444	Clostridium sporogenes
+SRR2070494	4261320	41	351415	Pass	cfr,cplR	bont_B6	cbotulinum	-	Csporogenes_AM1194	99.9998	1395	1399	Clostridium sporogenes
