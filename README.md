@@ -1,4 +1,4 @@
-# ClostBoNTax
+# BoNTax
 a curated genome-based framework for taxonomic classification and characterization of Clostridium botulinum Group I and Clostridium sporogenes.
 * This is a [Galaxy](https://galaxyproject.org/) formatted workflow.
 # Workflow Overview
