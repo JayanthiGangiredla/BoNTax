@@ -2,13 +2,13 @@
 a curated genome-based framework for taxonomic classification and characterization of Clostridium botulinum Group I and Clostridium sporogenes.
 * This is a [Galaxy](https://galaxyproject.org/) formatted workflow.
 # Workflow Overview
-* Quality control and trimming with FastQC and fastp
-* Genome assembly with SKESA
-* Assembly quality assessment with QUAST 
-* Toxin gene and AMR gene screening with AMRFinderPlus
-* MLST Screening based on PUBMLST schema for Clostridium botulinum
-* Taxonomic comparison with FastANI against reference genomes
-* Visualization using ANI heatmap using ggplot2_heatmap2
+* Quality control and trimming with FastQC(Galaxy Version 0.74+galaxy1) and fastp(Galaxy Version 1.3.3+galaxy0)
+* Genome assembly with SKESA(skesa / 0.24)
+* Assembly quality assessment with QUAST(5.3.0+galaxy1)
+* Toxin gene and AMR gene screening with AMRFinderPlus(4.2.5+galaxy2) db-12-25-03.1
+* MLST Screening based on PUBMLST schema for Clostridium botulinum(2.22.0) db-2025-10-16
+* Taxonomic comparison with FastANI(Galaxy Version 1.3) against reference genomes
+* Visualization using ANI heatmap using ggplot2_heatmap2(Galaxy Version 3.3.0+galaxy0)
 # Dependecies
 * This workflow relies on external tools from the Galaxy ToolShed (https://toolshed.g2.bx.psu.edu/). They can be auto-installed via Ephemeris using the included [tools.yml](dependencies/tools.yml).
 # Galaxy Workflow for Sequence Analysis
