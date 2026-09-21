@@ -1,1 +1,22 @@
-cff-version: 1.2.0message: "If you use BoNTax, please cite this software using the citation below."title: "BoNTax: A curated genome-based framework for taxonomic classification and characterization of Clostridium botulinum Group I and Clostridium sporogenes"type: softwareauthors:  - family-names: "Gangiredla"    given-names: "Jayanthi"  - family-names: "Sharma"    given-names: "Shashi"  - family-names: "Gonzalez-Escalona"    given-names: "Narjol"repository-code: "https://github.com/JayanthiGangiredla/BoNTax"version: "1.0.0"keywords:  - Clostridium botulinum  - Clostridium sporogenes  - comparative genomics  - taxonomic classification  - Galaxy  - FastANI  - microbial genomics 
+cff-version: 1.2.0
+message: "If you use BoNTax in your research, please cite the framework using these metadata attributes."
+title: "BoNTax: A curated genome-based framework for taxonomic classification and characterization of Clostridium botulinum Group I and Clostridium sporogenes"
+authors:
+  - family-names: "Jayanthi"
+    given-names: "Gangiredla"
+  - family-names: "Sharma"
+    given-names: "Shashi"
+  - family-names: "Gonzalez-Escalona"
+    given-names: "Narjol"
+version: "1.0.0"
+date-released: "2026-09-21"
+repository-code: "https://github.com"
+url: "https://github.com"
+keywords:
+  - clostridium-botulinum
+  - clostridium-sporogenes
+  - galaxy-workflow
+  - average-nucleotide-identity
+  - genomics
+  - public-health
+
