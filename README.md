@@ -62,6 +62,18 @@ The workflow automatically generates an integrated QC, FastANI, AMR, toxin and M
 | **Total_Fragments** | Total number of fragments |
 | **Species_match** | Final classification (*C. sporogenes* / *C. botulinum* group I / Unknown) |
 
+##  Quick Start (Testing the Workflow)
+
+To verify your installation, we have provided a sample validation file in the `input/` directory. 
+
+1. Download the sample dataset from `input/SRR.fasta` (or `.fasta.gz`).
+2. Upload this file to your **Galaxy history**.
+3. Import the **FASTA Workflow** (`BoNTax_FastA.ga`).
+4. Select the uploaded test file as your primary input sequence.
+5. In the reference database field, supply the dataset list generated from the `reference-db/` folder.
+6. Click **Run Workflow** to verify that the integrated `QC_ANI_Results` report compiles successfully.
+
+
 # Conclusion
 * By integrating curated reference genomes and ANI-based species assignment with independent BoNT characterization, ClostBoNTax provides a reproducible framework for distinguishing closely related C. botulinum Group I and C. sporogenes lineages without conflating taxonomic identity with toxin-associated pathogenic potential
 ## Citation & Publication
