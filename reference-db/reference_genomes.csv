@@ -1,0 +1,47 @@
+filename,species,strain,accession,source
+Cbotulinum_group1_Colworth BL30.fasta.gz,C. botulinum Group I,Colworth BL30,SWQE01,NCBI
+Cbotulinum_group1_A2B7 92.fasta.gz,C. botulinum Group I,A2B7 92,AUZA01,NCBI
+Cbotulinum_group1_PNUSAB000059.fasta.gz,C. botulinum Group I,PNUSAB000059,SRR37923368,NCBI
+Cbotulinum_group1_CDC64197.fasta.gz,C. botulinum Group I,CDC64197,JBODAU01,NCBI
+Cbotulinum_group1_CDC14.fasta.gz,C. botulinum Group I,CDC14 ,SAMN03769219,NCBI
+Cbotulinum_group1_A96.fasta.gz,C. botulinum Group I,A96,SAMN50685265,NCBI
+Cbotulinum_group1_CDC43305.fasta.gz,C. botulinum Group I,CDC43305,DBLCND01,NCBI
+Cbotulinum_group1_PNUSAB000004.fasta.gz,C. botulinum Group I,PNUSAB000004,DBLCMU01,NCBI
+Cbotulinum_group1_CDC28023.fasta.gz,C. botulinum Group I,CDC28023,JFGM01,NCBI
+Cbotulinum_group1_CDC67190.fasta.gz,C. botulinum Group I,CDC67190,JFGA01,NCBI
+Cbotulinum_group1_657.fasta.gz,C. botulinum Group I,657,CP001083,NCBI
+Cbotulinum_group1_Bf.fasta.gz,C. botulinum Group I,Bf,ABDP01,NCBI
+Cbotulinum_group1_Hall 183.fasta.gz,C. botulinum Group I,Hall 183,LFOP01,NCBI
+Cbotulinum_group1_Hall 4834.fasta.gz,C. botulinum Group I,Hall 4834,LFOQ01,NCBI
+Cbotulinum_group1_Hall 80.fasta.gz,C. botulinum Group I,Hall 80,LFOX01,NCBI
+Cbotulinum_group1_Hall 8388A.fasta.gz,C. botulinum Group I,Hall 8388A,LFOR01,NCBI
+Cbotulinum_group1_Hall 8857Ab.fasta.gz,C. botulinum Group I,Hall 8857Ab,LFOS01,NCBI
+Cbotulinum_group1_Hall.fasta.gz,C. botulinum Group I,Hall,NC_009698.1,NCBI
+Cbotulinum_group1_Kyoto.fasta.gz,C. botulinum Group I,Kyoto,CP001581.1,NCBI
+Cbotulinum_group1_Langeland.fasta.gz,C. botulinum Group I,Langeland,SWYH01,NCBI
+Cbotulinum_group1_Loch Maree A3.fasta.gz,C. botulinum Group I,Loch Maree A3,"CP000962.1, CP000963.1",NCBI
+Cbotulinum_group1_NCTC 2916.fasta.gz,C. botulinum Group I,NCTC 2916,ABDO01,NCBI
+Csporogenes_2015006229-DFPST.fasta.gz,C. sporogenes,2015006229-DFPST,JACBEM01,NCBI
+Csporogenes_87-0535.fasta.gz,C. sporogenes,87-0535,JZJP01,NCBI
+Csporogenes_88-0163.fasta.gz,C. sporogenes,88-0163,JZJQ01,NCBI
+Csporogenes_AM1194.fasta.gz,C. sporogenes,AM1194,NKRJ01,NCBI
+Csporogenes_AM553.fasta.gz,C. sporogenes,AM553,LFPK01,NCBI
+Csporogenes_ATCC 15579.fasta.gz,C. sporogenes,ATCC 15579,ABKW02,NCBI
+Csporogenes_B2 450.fasta.gz,C. sporogenes,B2 450,JXSU01,NCBI
+Csporogenes_CDC38839.fasta.gz,C. sporogenes,CDC38839,SHCE01,NCBI
+Csporogenes_CDC45459.fasta.gz,C. sporogenes,CDC45459,SHCI01,NCBI
+Csporogenes_CDC67240.fasta.gz,C. sporogenes,CDC67240,NA,C. botulinum MLST database
+Csporogenes_CDC75088T1.fasta.gz,C. sporogenes,CDC75088T1,NA,C. botulinum MLST database
+Csporogenes_CDC76054PL1.fasta.gz,C. sporogenes,CDC76054PL1,NA,CDC database
+Csporogenes_CDC76098.fasta.gz,C. sporogenes,CDC76098,NA,C. botulinum MLST database
+Csporogenes_CDC78112PL1.fasta.gz,C. sporogenes,CDC78112PL1,NA,C. botulinum MLST database
+Csporogenes_CDC1632.fasta.gz,C. sporogenes,CDC_1632,CP013243.1,NCBI
+Csporogenes_CDC31846.fasta.gz,C. sporogenes,CDC_31846,DBLCMK01,NCBI
+Csporogenes_DSM 795.fasta.gz,C. sporogenes,DSM 795,JFBQ01,NCBI
+Csporogenes_FDA1304820-S005-002.fasta.gz,C. sporogenes,FDA1304820-S005-002,ACBMUQ02,NCBI
+Csporogenes_FDA1316851-S005-003.fasta.gz,C. sporogenes,FDA1316851-S005-003,NA,FDA database
+Csporogenes_FDA1316851-S005-004.fasta.gz,C. sporogenes,FDA1316851-S005-004,NA,FDA database
+Csporogenes_Osaka05.fasta.gz,C. sporogenes,Osaka05,BAUF01,NCBI
+Csporogenes_PA 3679.fasta.gz,C. sporogenes,PA 3679,AGAH01,NCBI
+Csporogenes_Prevot_594.fasta.gz,C. sporogenes,Prevot_594,CP006902.1,NCBI
+Csporogenes_W534242.fasta.gz,C. sporogenes,W534242,ACDGXO01,NCBI
