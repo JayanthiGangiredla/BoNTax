@@ -15,12 +15,12 @@ a curated genome-based framework for taxonomic classification and characterizati
 
 This repository contains two versions of a Galaxy workflow, optimized depending on your input file format, along with a library of 46 reference genomes for alignment and querying.
 
-##  Available Workflows
+##  Available Workflow
 
 * **FASTA Workflow (`galaxytrakr-workflow/BoNTax_FastA.ga`)**: Designed for assembled nucleotide sequences without quality scores.
 * **FASTQ Workflow (`galaxytrakr-workflow/BoNTax_FastQ.ga`)**: Designed for raw sequencing reads. Includes steps for quality control (QC) and trimming and assembly.
 ---
-## How to Import the Workflows
+## How to Import the Workflow
 
 1. Download the appropriate `.ga` file from the `galaxytrakr-workflows/` directory.
 2. Log into your **Galaxy instance**.
@@ -43,7 +43,7 @@ This repository includes **46 compressed reference genomes** located in the `ref
 4. Select the list of uploaded reference file as your reference input dataset.
 ### Output QC_ANI_Results Report Fields
 
-The workflow automatically generates an integrated QC, FastANI, AMR, toxin andd MLST report containing the following metrics:
+The workflow automatically generates an integrated QC, FastANI, AMR, toxin and MLST report containing the following metrics:
 
 | Field | Description |
 | :--- | :--- |
