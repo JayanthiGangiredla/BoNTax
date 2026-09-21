@@ -9,7 +9,7 @@ a curated genome-based framework for taxonomic classification and characterizati
 * MLST Screening based on PUBMLST schema for Clostridium botulinum(2.22.0) db-2025-10-16
 * Taxonomic comparison with FastANI(Galaxy Version 1.3) against reference genomes
 * Visualization using ANI heatmap using ggplot2_heatmap2(Galaxy Version 3.3.0+galaxy0)
-# Dependecies
+# Dependencies
 * This workflow relies on external tools from the Galaxy ToolShed (https://toolshed.g2.bx.psu.edu/). They can be auto-installed via Ephemeris using the included [dependencies/tools.yml](dependencies/tools.yml).
 # Galaxy Workflow for Sequence Analysis
 
@@ -61,6 +61,16 @@ The workflow automatically generates an integrated QC, FastANI, AMR, toxin and M
 | **Aligned_Fragments** | Number of aligned fragments |
 | **Total_Fragments** | Total number of fragments |
 | **Species_match** | Final classification (*C. sporogenes* / *C. botulinum* group I / Unknown) |
+
+###  System Compatibility & Public Instances
+
+This workflow is optimized for modern Galaxy architectures and is fully compatible with major cloud-based public instances. 
+
+* **Galaxy Version Compatibility:** Tested and verified on **Galaxy Release 23.1+**.
+* **Public Galaxy Instances:** 
+  * **[GalaxyTrakr](https://galaxytrakr.org):** Fully integrated. A step-by-step running protocol is available via the official FDA GenomeTrakr workspace on [Protocols.io](https://protocols.io).
+  * **[Galaxy Main](https://usegalaxy.org):** Fully compatible. All underlying dependencies are accessible via the standard [Galaxy ToolShed](https://psu.edu).
+
 
 ##  Quick Start (Testing the Workflow)
 
