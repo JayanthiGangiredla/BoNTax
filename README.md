@@ -12,8 +12,7 @@ a curated genome-based framework for taxonomic classification and characterizati
 # Dependencies
 * This workflow relies on external tools from the Galaxy ToolShed (https://toolshed.g2.bx.psu.edu/). They can be auto-installed via Ephemeris using the included [dependencies/tools.yml](dependencies/tools.yml).
 # Workflow Overview
-![BoNTax Workflow Flowchart](images/your_flowchart_filename.png)
-
+[BoNTax Workflow Flowchart](images/your_flowchart_filename.png)
 
 # Galaxy Workflow for Sequence Analysis
 
