@@ -86,7 +86,7 @@ To verify your installation, we have provided a sample validation file in the `i
 
 
 # Conclusion
-* By integrating curated reference genomes and ANI-based species assignment with independent BoNT characterization, ClostBoNTax provides a reproducible framework for distinguishing closely related C. botulinum Group I and C. sporogenes lineages without conflating taxonomic identity with toxin-associated pathogenic potential
+* By integrating curated reference genomes and ANI-based species assignment with independent BoNT characterization, BoNTax provides a reproducible framework for distinguishing closely related C. botulinum Group I and C. sporogenes lineages without conflating taxonomic identity with toxin-associated pathogenic potential
 ## Citation & Publication
 
 A manuscript describing this workflow is currently **in preparation**.
