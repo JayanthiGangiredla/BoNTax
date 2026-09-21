@@ -62,8 +62,6 @@ The workflow automatically generates an integrated QC, FastANI, AMR, toxin and M
 | **Total_Fragments** | Total number of fragments |
 | **Species_match** | Final classification (*C. sporogenes* / *C. botulinum* group I / Unknown) |
 
-###  System Compatibility & Public Instances
-
 ### System Compatibility & Public Instances
 
 Optimized for Galaxy Release 23.1+ and compatible with major public instances:
