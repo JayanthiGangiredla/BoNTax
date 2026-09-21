@@ -64,12 +64,12 @@ The workflow automatically generates an integrated QC, FastANI, AMR, toxin and M
 
 ###  System Compatibility & Public Instances
 
-This workflow is optimized for modern Galaxy architectures and is fully compatible with major cloud-based public instances. 
+### System Compatibility & Public Instances
 
-* **Galaxy Version Compatibility:** Tested and verified on **Galaxy Release 23.1+**.
-* **Public Galaxy Instances:** 
-  * **[GalaxyTrakr](https://galaxytrakr.org):** Fully integrated. A step-by-step running protocol is available via the official FDA GenomeTrakr workspace on [Protocols.io](https://protocols.io).
-  * **[Galaxy Main](https://usegalaxy.org):** Fully compatible. All underlying dependencies are accessible via the standard [Galaxy ToolShed](https://psu.edu).
+Optimized for Galaxy Release 23.1+ and compatible with major public instances:
+
+- **[GalaxyTrakr](https://galaxytrakr.org):** Fully integrated, with protocols on [Protocols.io](https://protocols.io).
+- **[Galaxy Main](https://usegalaxy.org):** Fully compatible, utilizing dependencies via the [Galaxy ToolShed](https://psu.edu).
 
 
 ##  Quick Start (Testing the Workflow)
