@@ -25,7 +25,7 @@ This repository contains two versions of a Galaxy workflow, optimized depending 
 ---
 ## How to Import the Workflow
 
-1. Download the appropriate `.ga` file from the `galaxytrakr-workflows/` directory.
+1. Download the appropriate `.ga` file from the `galaxytrakr-workflow/` directory.
 2. Log into your **Galaxy instance**.
 3. Navigate to **Workflow** in the top menu and click **Upload or import workflow**.
 4. Choose the downloaded `.ga` file and import it into your account.
