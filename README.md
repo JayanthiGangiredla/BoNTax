@@ -82,7 +82,7 @@ To verify your installation, we have provided a sample validation file in the `i
 3. Import the **FASTA Workflow** (`BoNTax_FastA.ga`).
 4. Select the uploaded test file as your primary input sequence.
 5. In the reference database field, supply the dataset list generated from the `reference-db/` folder.
-6. Click **Run Workflow** to verify that the integrated [input/output/QC_ANI_Results](input/output/QC_ANI_Resuts.tabular) and `input/output/heatmap.pdf` reports compiles successfully.
+6. Click **Run Workflow** to verify that the integrated [input/output/QC_ANI_Results](input/output/QC_ANI_Results.tabular) and [input/output/heatmap.pdf](input/output/heatmap.pdf) reports compiles successfully.
 
 
 # Conclusion
