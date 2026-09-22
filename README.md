@@ -77,7 +77,7 @@ Optimized for Galaxy Release 23.1+ and compatible with major public instances:
 
 To verify your installation, we have provided a sample validation file in the `input/` directory. 
 
-1. Download the sample dataset from `input/SRR2070494.fasta` (or `.fasta.gz`).
+1. Download the sample dataset from [input/SRR2070494.fasta](input/SRR2070494.fasta)
 2. Upload this file to your **Galaxy history** and create a list of dataset.
 3. Import the **FASTA Workflow** (`BoNTax_FastA.ga`).
 4. Select the uploaded test file as your primary input sequence.
