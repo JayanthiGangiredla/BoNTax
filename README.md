@@ -11,8 +11,8 @@ a curated genome-based framework for taxonomic classification and characterizati
 * Visualization using ANI heatmap using ggplot2_heatmap2(Galaxy Version 3.3.0+galaxy0)
 # Dependencies
 * This workflow relies on external tools from the Galaxy ToolShed (https://toolshed.g2.bx.psu.edu/). They can be auto-installed via Ephemeris using the included [dependencies/tools.yml](dependencies/tools.yml).
-# Workflow Overview
-[BoNTax Workflow Flowchart](images/BoNTax_schematic_091126.png)
+### Workflow Overview
+![BoNTax Workflow Flowchart](images/BoNTax_schematic_091126.png)
 
 # Galaxy Workflow for Sequence Analysis
 
