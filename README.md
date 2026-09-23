@@ -39,6 +39,11 @@ This repository contains two versions of a Galaxy workflow, optimized depending 
 ## 🧬 Reference Genomes
 
 This repository includes **46 compressed reference genomes** located in the `reference-db/` directory. All genomes are compressed in `.fasta.gz` format to optimize space and are natively compatible with Galaxy.
+
+*   **Taxonomic Classification (`FastANI`):** Compares the query genome against a curated database of 46 reference genomes.
+    *   **≥ 95% ANI:** Assigned to the matching species (*C. botulinum* Group I or *C. sporogenes*).
+    *   **< 95% ANI:** Reported as *Clostridium sp. unknown*.
+      
 ### How to use these references in Galaxy:
 1. Download the specific `.fasta.gz` genome(s) you need from the `reference-db/` folder in this repository.
 2. Upload the compressed file directly into your Galaxy history.
